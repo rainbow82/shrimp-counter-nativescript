@@ -1,5 +1,21 @@
 <Page loaded="pageLoaded">
     <StackLayout>
         <Label text='Shrimp Counter!' /> 
+        <Label textWrap='true' text='Don&apos;t loose track of how many shrimp you have eaten!' />
+        <Label text='Shrimp Eaten' />
+       
+    
+   
+
+            <Button text='+' tap='onTapIncrease'/>
+
+            <Label id='shrimpCount' text='0' />
+ 
+      
+            <Button text='-' tap='onTapDecrease'/>
+     
+  
     </StackLayout>
+
+    
 </Page>
