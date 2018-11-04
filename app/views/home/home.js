@@ -9,16 +9,19 @@ function onTapIncrease(args){
     let button = args.object;
     let parent = button.parent;
     let shrimpCount = view.getViewById(parent, "shrimpCount");
-    shrimpCount.text = counter;
+    shrimpCount.text = 'Shrimp Eaten: ' + counter;
 }
 
 function onTapDecrease(args){
     counter--;
+   if (counter <= 0){
+    counter = 0;
+    }
     console.log('counter ' + counter);
     let button = args.object;
     let parent = button.parent;
     let shrimpCount = view.getViewById(parent, "shrimpCount");
-    shrimpCount.text = counter;
+    shrimpCount.text = 'Shrimp Eaten: ' + counter;
 }
 
 

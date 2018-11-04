@@ -1,0 +1,27 @@
+.title{
+    font-size:30;
+    color: blueviolet;
+    horizontal-align: center;
+    margin-top: 25;
+    font-weight: bold;
+}
+
+Label{
+    margin: 10 10 10 10;
+}
+
+Button{
+    horizontal-align: center;
+    border: 3 solid purple;
+}
+
+#shrimpCount{
+    horizontal-align: center;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.change-number{
+    font-size: 25;
+    font-weight: bold;
+}

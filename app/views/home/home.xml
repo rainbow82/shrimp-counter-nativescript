@@ -1,20 +1,14 @@
 <Page loaded="pageLoaded">
     <StackLayout>
-        <Label text='Shrimp Counter!' /> 
+        <StackLayout class='title-background'>
+            <Label text='Shrimp Counter!' class='title'/> 
+        </StackLayout>
+        
         <Label textWrap='true' text='Don&apos;t loose track of how many shrimp you have eaten!' />
-        <Label text='Shrimp Eaten' />
-       
-    
-   
-
-            <Button text='+' tap='onTapIncrease'/>
-
-            <Label id='shrimpCount' text='0' />
- 
-      
-            <Button text='-' tap='onTapDecrease'/>
-     
-  
+            <Label id='shrimpCount' text='Shrimp Eaten:' /> 
+            <Button text='Add Shrimp' tap='onTapIncrease' class='change-number'/>
+                
+            <Button text='Subtract Shrimp' tap='onTapDecrease' class='change-number'/> 
     </StackLayout>
 
     
